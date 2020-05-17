@@ -1,0 +1,91 @@
+$blue: #355c7d;
+$background: #ECECEC;
+$red: #f67280;
+$beige: #fecea8;
+$grey: #474747;
+
+body {
+    background-color:$background;
+    font-size: 25px;
+}
+h3{
+    font-size: 35px;
+    line-height: 1.5;
+    font-weight: bolder;
+    color: $red
+}
+.list-group-item{
+    background-color:$beige;
+}
+
+.list-group-item2{
+    background-color: $blue;
+}
+h2{
+    font-size: 30px;
+    line-height: 1.5;
+    font-weight: bolder;
+    color: $blue;
+}
+
+h5{
+    line-height: 1.5;
+    color:  $red;
+}
+li {
+    font-size: 20px;
+    color: $grey;
+}
+p{
+    @extend li;
+}
+
+a{
+    @extend li;
+}
+.container {
+    max-width: 1200px; 
+}
+
+.header {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+  }
+
+nav {
+    p-2 text-muted {
+        color: $grey;
+        font-size: 30px;
+    }
+}
+.nav-scroller {
+    position: relative;
+    z-index: 2;
+    height: 4rem;
+    overflow-y: hidden;
+    font-size: 27px;
+    padding-inline-start: .50rem;
+    padding-inline-end: .50rem;
+}
+
+.pb-1, .py-1{
+    padding-bottom: .25rem!important;
+}
+
+.pt-1, .py-1{
+    padding-top: .25rem!important;
+}
+.mb-2, .my-2{
+    margin-bottom: .5rem!important;
+}
+
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 1.5rem;
+}
+.table{
+    max-height: 600px;
+}
