@@ -44,8 +44,12 @@ a{
     @extend li;
 }
 .container {
-    max-width: 1200px; 
+    img {
+        max-width: 700;
+        align-self: center;
+    }
 }
+
 
 .header {
     text-align: center;
@@ -88,4 +92,23 @@ nav {
 }
 .table{
     max-height: 600px;
+}
+
+.container{
+    max-width: 1200px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-fluid-profile{
+    width: 600px;
+    height: 700px;
+    overflow: hidden;
+}
+
+h1{
+    font-size: 40px;
+    line-height: 1.5;
+    font-weight: bolder;
+    color: $blue;
 }
